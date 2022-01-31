@@ -39,9 +39,9 @@ export default function Layout({ children, home }: any) {
                     />
                 </a>
                 <div className={styles.nav}>
-                    <Link href="#" ><a className={styles.nav_item}>Home</a></Link>
+                    <Link href="/" ><a className={styles.nav_item}>Home</a></Link>
                     <Link href="#" ><a className={styles.nav_item}>Projects</a></Link>
-                    <Link href="#" ><a className={styles.nav_item}>About</a></Link>
+                    <Link href="/me" ><a className={styles.nav_item}>Me</a></Link>
                 </div>
 
 
